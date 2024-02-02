@@ -14,7 +14,7 @@
 # https://github.com/platformsh/source-operations.git
 
 # Repo for our source ops support scripts
-gitSourceOps="https://github.com/platformsh/source-operations.git"
+gitSourceOps="https://github.com/gilzow/source-operations-js.git"
 # A writable location where we can store things: cache directory on a psh environment, TMPDIR in most systems, or fallback
 tmpDir=${PLATFORM_CACHE_DIR:-${TMPDIR:-/tmp}}
 dirSourceOps="${tmpDir}/source-operations"
