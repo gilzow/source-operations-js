@@ -17,7 +17,7 @@
 gitSourceOps="https://github.com/gilzow/source-operations-js.git"
 # A writable location where we can store things: cache directory on a psh environment, TMPDIR in most systems, or fallback
 tmpDir=${PLATFORM_CACHE_DIR:-${TMPDIR:-/tmp}}
-dirSourceOps="${tmpDir}/source-operations"
+dirSourceOps="${tmpDir}/source-operations-js"
 
 #Does the temp directory exist and more importantly, can we write to it?
 if [ ! -d "${tmpDir}" ] || [ ! -w "${tmpDir}" ]; then
