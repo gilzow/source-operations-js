@@ -44,6 +44,8 @@ else
   printf " Done.\n"
 fi
 
+printf "Adding %s to PATH... " "${dirSourceOps}"
+
 # Add our directory to PATH so we can call it
 export PATH="${dirSourceOps}:${PATH}"
 
